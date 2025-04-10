@@ -115,9 +115,6 @@ namespace Blog.Data.Migrations
                     b.Property<string>("UpdatedBy")
                         .HasColumnType("TEXT");
 
-                    b.Property<DateTime>("UpdatedDate")
-                        .HasColumnType("TEXT");
-
                     b.HasKey("Id");
 
                     b.ToTable("Posts");
